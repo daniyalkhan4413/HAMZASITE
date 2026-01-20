@@ -63,7 +63,7 @@ const HomeHero: React.FC = () => {
 
         <Button
           component={Link}
-          to="Get-your-Quote"
+          to="contact"
           variant="contained"
           sx={{
             backgroundColor: "#42a5f5",
