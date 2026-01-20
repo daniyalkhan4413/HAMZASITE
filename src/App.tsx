@@ -9,6 +9,7 @@ import Homepage from './Components/Homepage';
 import AboutUsPage from './Components/Aboutus';
 import ContactPage from './Components/Contactus';
 import NotFoundPage from './Components/Notfound'; // 👉 Import 404 page
+import ServicesSection from './Components/ServicePage';
 
 
 import './App.css';
@@ -23,7 +24,8 @@ const App: React.FC = () => {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<PageWrapper><Homepage /></PageWrapper>} />
          
-         
+                   <Route path="/services" element={<PageWrapper><ServicesSection /></PageWrapper>} />
+
           <Route path="/about" element={<PageWrapper><AboutUsPage /></PageWrapper>} />
           <Route path="/contact" element={<PageWrapper><ContactPage /></PageWrapper>} />
          

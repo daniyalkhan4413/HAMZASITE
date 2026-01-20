@@ -18,7 +18,7 @@ import { NavLink } from "react-router-dom";
 import logoImage from "./assets/DDTVLogo.png";
 
 const pages = [
-
+{ name: "Services", path: "/services" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
 
