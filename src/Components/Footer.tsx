@@ -48,12 +48,13 @@ const Footer: React.FC = () => {
               {/* Contact Info */}
               <Stack spacing={1}>
                 <Typography variant="body2">
-                  Address: PO BOX 1964, ROUND ROCK, TX, 78680-1964, USA
+                  Address: 1833 Cheddar Loop 
+Austin TX 78728, USA
                 </Typography>
                 <Typography variant="body2">Phone: (512) 999-0716
 </Typography>
                 <Typography variant="body2">
-                  Email: info@ddtv.com
+                  Email: ddtvllc@gmail.com
 
                 </Typography>
               </Stack>
